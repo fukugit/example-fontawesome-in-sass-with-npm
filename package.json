@@ -1,0 +1,22 @@
+{
+  "name": "example-fontawesome-in-sass-with-npm",
+  "version": "1.0.0",
+  "description": "How to setup FontAwesome in sass with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fukugit/example-fontawesome-in-sass-with-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fukugit/example-fontawesome-in-sass-with-npm/issues"
+  },
+  "homepage": "https://github.com/fukugit/example-fontawesome-in-sass-with-npm#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
+  }
+}
