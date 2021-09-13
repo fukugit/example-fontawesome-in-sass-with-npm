@@ -7,7 +7,11 @@ If you want to know that with Webpack, you can see [the another project](https:/
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of contents
 
+- [Getting Started](#getting-started)
 - [Demo](#demo)
+- [Project Structure](#project-structure)
+- [Dependency](#dependency)
+- [Acknowledgement](#acknowledgement)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
