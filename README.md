@@ -1,6 +1,4 @@
 # example-fontawesome-in-sass-with-npm
-
-# example-fontawesome-in-sass-with-webpack
 This project explains that the way of usage of FontAwesome in Sass with npm without Webpack.  
 If you want to know that with Webpack, you can see [the another project](https://github.com/fukugit/example-fontawesome-in-sass-with-webpack).
 <br/>
@@ -32,7 +30,7 @@ Then, open the ```./index.html``` with Browser.
 <br/>
 
 ## Demo
-You can see the webpage in [here](https://fukugit.github.io/example-fontawesome-in-sass-with-npm/)) that uses FontAwesome, which is made by sass with npm.  
+You can see the webpage in [here](https://fukugit.github.io/example-fontawesome-in-sass-with-npm/) that uses FontAwesome, which is made by sass with npm.  
 <br/>
 
 
