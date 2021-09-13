@@ -55,7 +55,7 @@ npm install --save-dev @fortawesome/fontawesome-free
 <br/>
 
 ## Acknowledgement
-In order to create this project ,I was basically following [this document in official site.](https://fontawesome.com/v5.0/how-to-use/on-the-web/using-with/sass).  
+In order to create this project ,I read through [the document in official site.](https://fontawesome.com/v5.0/how-to-use/on-the-web/using-with/sass).  
 
 <br/>
 
