@@ -6,20 +6,78 @@ $fa-font-path: "./webfonts";
 @import './node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
 
 
-.user {
-  @extend %fa-icon;
-  @extend .fas;
+body {
+  .container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .itags{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-  &:before {
-    content: fa-content($fa-var-user);
-  }
-}
-
-.twitter {
-  @extend %fa-icon;
-  @extend .fab;
-
-  &:before {
-    content: fa-content($fa-var-twitter);
+      .twitter {
+        @extend %fa-icon;
+        @extend .fab;
+        margin-right: 10px;
+        &:before {
+          content: fa-content($fa-var-twitter);
+          font-size: 2em;
+          color: #d9534f;
+        }
+      }
+      .cammera-blue {
+        @extend %fa-icon;
+        @extend .fas;
+        margin-right: 10px;
+        &:before {
+          content: fa-content($fa-var-camera);
+          font-size: 3em;
+          color: #348498;
+        }
+      }
+      .cammera-green {
+        @extend %fa-icon;
+        @extend .fas;
+        margin-right: 10px;
+        &:before {
+          content: fa-content($fa-var-camera);
+          font-size: 4em;
+          color: #96ceb4;
+        }
+      }
+      .twitter-all {
+        @extend %fa-icon;
+        @extend .fab;
+        margin-right: 10px;
+        &:before {
+          content: fa-content($fa-var-twitter);
+          font-size: 2em;
+          color: #d9534f;
+          margin-right: 10px;
+        }
+        &:after {
+          content: fa-content($fa-var-twitter);
+          font-size: 2em;
+          color: #d9534f;
+          margin-left: 10px;
+        }
+      }
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 100px;
+    }
+    strong {
+      color: red;
+    }
   }
 }

@@ -4,12 +4,14 @@
  */
 .fa,
 .fas,
-.user,
+body .container .itags .cammera-green,
+body .container .itags .cammera-blue,
 .far,
 .fal,
 .fad,
 .fab,
-.twitter {
+body .container .itags .twitter-all,
+body .container .itags .twitter {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -19,7 +21,7 @@
   line-height: 1;
 }
 
-.twitter, .user {
+body .container .itags .twitter-all, body .container .itags .cammera-green, body .container .itags .cammera-blue, body .container .itags .twitter {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -121,20 +123,24 @@
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
-.fa-pull-left.user,
+body .container .itags .fa-pull-left.cammera-green,
+body .container .itags .fa-pull-left.cammera-blue,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left,
-.fa-pull-left.twitter {
+body .container .itags .fa-pull-left.twitter-all,
+body .container .itags .fa-pull-left.twitter {
   margin-right: 0.3em;
 }
 .fa.fa-pull-right,
 .fas.fa-pull-right,
-.fa-pull-right.user,
+body .container .itags .fa-pull-right.cammera-green,
+body .container .itags .fa-pull-right.cammera-blue,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right,
-.fa-pull-right.twitter {
+body .container .itags .fa-pull-right.twitter-all,
+body .container .itags .fa-pull-right.twitter {
   margin-left: 0.3em;
 }
 
@@ -6088,7 +6094,7 @@ readers do not read off random characters that represent icons */
   src: url("./webfonts/fa-brands-400.eot");
   src: url("./webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("./webfonts/fa-brands-400.woff2") format("woff2"), url("./webfonts/fa-brands-400.woff") format("woff"), url("./webfonts/fa-brands-400.ttf") format("truetype"), url("./webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
-.fab, .twitter {
+.fab, body .container .itags .twitter-all, body .container .itags .twitter {
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
@@ -6107,7 +6113,8 @@ readers do not read off random characters that represent icons */
 }
 .fa,
 .fas,
-.user {
+body .container .itags .cammera-green,
+body .container .itags .cammera-blue {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
@@ -6129,12 +6136,69 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.user:before {
-  content: "\f007";
+body .container {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
-.twitter:before {
+body .container .itags {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .itags .twitter {
+  margin-right: 10px;
+}
+body .container .itags .twitter:before {
   content: "\f099";
+  font-size: 2em;
+  color: #d9534f;
+}
+body .container .itags .cammera-blue {
+  margin-right: 10px;
+}
+body .container .itags .cammera-blue:before {
+  content: "\f030";
+  font-size: 3em;
+  color: #348498;
+}
+body .container .itags .cammera-green {
+  margin-right: 10px;
+}
+body .container .itags .cammera-green:before {
+  content: "\f030";
+  font-size: 4em;
+  color: #96ceb4;
+}
+body .container .itags .twitter-all {
+  margin-right: 10px;
+}
+body .container .itags .twitter-all:before {
+  content: "\f099";
+  font-size: 2em;
+  color: #d9534f;
+  margin-right: 10px;
+}
+body .container .itags .twitter-all:after {
+  content: "\f099";
+  font-size: 2em;
+  color: #d9534f;
+  margin-left: 10px;
+}
+body .container h1 {
+  font-size: 3rem;
+}
+body .container h2 {
+  font-size: 1.5rem;
+  margin-top: 100px;
+}
+body .container strong {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
