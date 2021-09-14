@@ -1,6 +1,6 @@
 # example-fontawesome-in-sass-with-npm
-This project explains that the way of usage of FontAwesome in Sass with npm without Webpack.  
-If you want to know that the project is made up of Webpack, you can see [the another project](https://github.com/fukugit/example-fontawesome-in-sass-with-webpack).
+This project explains that the way of the usage of FontAwesome in Sass with npm without Webpack.  
+If you want to know that the project consists of Webpack, you can see [the another project](https://github.com/fukugit/example-fontawesome-in-sass-with-webpack).  
 <br/>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -19,22 +19,18 @@ If you want to know that the project is made up of Webpack, you can see [the ano
 
 
 ## Getting Started
-It is necessary to install ```npm``` before executing the below commands.  
-<br/>
-
 ```
 npm insatall
 npm run build
 sass --watch style.scss style.css
+
+## Then, open the ```./index.html``` with Browser.
 ```
 
 <br/>
 
-Then, open the ```./index.html``` with Browser.  
-<br/>
-
 ## Demo
-You can see the webpage in [here](https://fukugit.github.io/example-fontawesome-in-sass-with-npm/) that uses FontAwesome, which consists of sass and npm.  
+You can see the webpage [here](https://fukugit.github.io/example-fontawesome-in-sass-with-npm/) that uses FontAwesome, which consists of sass and npm.  
 <br/>
 
 
@@ -55,7 +51,7 @@ npm install --save-dev @fortawesome/fontawesome-free
 <br/>
 
 ## Acknowledgement
-In order to create this project ,I read through [the document in official site.](https://fontawesome.com/v5.0/how-to-use/on-the-web/using-with/sass).  
+To create this project, I read through [the document on the official site.](https://fontawesome.com/v5.0/how-to-use/on-the-web/using-with/sass).  
 
 <br/>
 
